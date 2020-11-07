@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/App.scss';
 import Scene from "./Scene";
 
 export interface HelloWorldProps {
@@ -7,10 +8,7 @@ export interface HelloWorldProps {
 }
 
 export const App = (props: HelloWorldProps) => (
-    <div>
-        <h1>
-            Hi {props.userName} from React! Welcome to {props.lang}!
-        </h1>
+    <div className="container container__app">
         <Scene />
     </div>
 );

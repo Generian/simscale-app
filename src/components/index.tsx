@@ -20,5 +20,5 @@ import { App } from "./App";
 
 ReactDOM.render(
   <App userName="Beveloper" lang="TypeScript" />,
-  document.getElementById("output")
+  document.getElementById("main")
 );
